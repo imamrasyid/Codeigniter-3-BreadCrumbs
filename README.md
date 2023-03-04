@@ -52,3 +52,5 @@ Assign it to a variable and pass it to your views for output.
     $this->load->view('examplepage',$data);
 
 Breadcrumbs helps us trace our way back, starting from the current page and ideally up to the homepage. It is commonsense that the last link is the current page, and it should not be clickable. This will be handled automatically, where the last link will be non-clickable.
+
+Note: This source based on https://github.com/reeazr/codeigniter-breadcrumb
